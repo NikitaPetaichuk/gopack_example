@@ -6,7 +6,7 @@ import (
 )
 
 func PackageVersion() {
-	fmt.Println("Package version - 3.0.0")
+	fmt.Println("Package version - 3.0.1")
 }
 
 func PackageFunctionality(a, b float64) float64 {
