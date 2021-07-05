@@ -1,15 +1,18 @@
 package gopackexample
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 func PackageVersion() {
-	fmt.Println("Package version - 2.1.0")
+	fmt.Println("Package version - 3.0.0")
 }
 
-func PackageFunctionality(a, b int) int {
-	return a * b
+func PackageFunctionality(a, b float64) float64 {
+	return math.Pow(a, b)
 }
 
-func PackageFunctionality2(a, b, c int) int {
-	return a + b*c
+func PackageFunctionality2(a, b, c float64) float64 {
+	return a * math.Pow(b, c)
 }
